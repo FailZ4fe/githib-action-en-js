@@ -1,0 +1,19 @@
+name: 'Hello There!, General GitHub Actions in JS'
+description: "Now that's a name I've not heard in a long time"
+inputs:
+  hello-there:
+    description: "General Kenobi"
+    required: true
+    default: 'Old Ben'
+
+outputs:
+  time:
+    description: "Long time ago"
+
+runs:
+  using: 'node20'
+  main: 'index.js'
+
+branding:
+  icon: "aperture"
+  color: "purple"
